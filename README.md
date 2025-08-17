@@ -9,5 +9,5 @@ This the project in this repository is the culmination of a semester of learning
 Scanner Output into a Text Document implemented
 
 ## Future Implementation
-*Vulnerability Analysis
-*Miscellaneous Enhancements
+* Vulnerability Analysis
+* Miscellaneous Enhancements
