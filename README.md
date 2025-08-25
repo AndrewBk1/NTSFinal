@@ -14,10 +14,15 @@ A sorted final output file will be created and replaced everytime a new scan is 
 All open ports will be displayed as well as any services, positive or negative, that the target address is currently running. All services will be collected and applied to the National Vulnerability Database to look for potential flaws that must be addressed in future sections.
 
 ### Dectected Vulnerabilities
-A list of all vulnerabilities collected from the NVD are displayed within the output document. Each entry outlines the CVE ID and the problem that can be taken advantage of to bypass each service. Depending on the vulnerabilities detected, the feedback for the remediation section may be different.
+A list of all vulnerabilities collected from the NVD are displayed within the output document. Each entry outlines the CVE ID and the problem that can be taken advantage of to bypass each service. The severity of the vulnerability will also be part of the entry to give a hierarchy to which problems should be solved first. Depending on the vulnerabilities detected, the feedback for the remediation section may be different.
 
 ### Network Recommendations
 Depending on the vulnerabilities outlined in the previous section, mitigation and recovery strategies will be given to maximize potential security and simplify the process.
+
+## Usage Guidelines
+# Root privileges are required to scan the OS
+
+Syntax: sudo ./final_scan.sh <target>
 
 ## Current Status
 The initial scanner has been released with implementation for all features above. Depending on user inputs, the script may become volatile.
