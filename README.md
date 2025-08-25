@@ -20,7 +20,7 @@ A list of all vulnerabilities collected from the NVD are displayed within the ou
 Depending on the vulnerabilities outlined in the previous section, mitigation and recovery strategies will be given to maximize potential security and simplify the process.
 
 ## Usage Guidelines
-# Root privileges are required to scan the OS
+### Root privileges are required to scan the OS
 
 Syntax: sudo ./final_scan.sh <target>
 
